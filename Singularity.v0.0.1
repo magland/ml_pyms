@@ -14,7 +14,7 @@ FROM: magland/mlsing
   conda activate mountainlab
  
   echo "################################## Installing ML package via conda"
-  conda install ml_pyms
+  conda install -c flatiron -c conda-forge ml_pyms
 
   echo "################################## Testing package"
   ml-list-processors
